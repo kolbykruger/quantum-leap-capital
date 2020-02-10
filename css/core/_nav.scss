@@ -27,8 +27,14 @@ $nav-item-height: $header-height;
     text-decoration: none;
     transition: $transition-1;
 
+    &.special-link {
+        color: #fff;
+        background: $color-3;
+    }
+
     &.button {
         color: #fff;
+        border-left: none;
     }
 }
 

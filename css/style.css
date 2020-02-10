@@ -828,8 +828,14 @@ hr::before {
   transition: 250ms ease;
 }
 
+.nav a.special-link {
+  color: #fff;
+  background: #2e5472;
+}
+
 .nav a.button {
   color: #fff;
+  border-left: none;
 }
 
 .nav a:hover,
