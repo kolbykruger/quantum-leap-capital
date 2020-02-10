@@ -33,7 +33,8 @@ $button-background: $color-1;
     padding: 1.125em;
     background: $button-background;
     color: $button-color;
-    //border-radius: 0.25em;
+    border-radius: 0.125em;
+    font-weight: 600;
     line-height: 1;
     transition: 150ms ease;
     text-decoration: none;
@@ -88,6 +89,12 @@ $button-background: $color-1;
         &:focus {
             background: darken($color-3, 5%);
         }
+    }
+    &-outline {
+        background: transparent;
+        color: $button-background;
+        outline: 2px solid $button-background;
+        outline-offset: -2px;
     }
     &-text {
         color: $color-1;

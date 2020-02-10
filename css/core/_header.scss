@@ -13,6 +13,7 @@
 
     &.sticky {
         height: $header-sticky-height;
+        box-shadow: $box-shadow-2;
 
         .nav a {
             height: $header-sticky-height;

@@ -715,6 +715,7 @@ hr::before {
 
 .header.sticky {
   height: 3.5em;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .header.sticky .nav a {
@@ -836,6 +837,7 @@ hr::before {
 .nav a.button {
   color: #fff;
   border-left: none;
+  border-radius: 0;
 }
 
 .nav a:hover,
@@ -1341,6 +1343,8 @@ p.simplesearch-results,
   padding: 1.125em;
   background: #719a1f;
   color: #fff;
+  border-radius: 0.125em;
+  font-weight: 600;
   line-height: 1;
   transition: 150ms ease;
   text-decoration: none;
@@ -1395,6 +1399,13 @@ p.simplesearch-results,
 
 .button-tertiary:hover, .button-tertiary:focus {
   background: #274760;
+}
+
+.button-outline {
+  background: transparent;
+  color: #719a1f;
+  outline: 2px solid #719a1f;
+  outline-offset: -2px;
 }
 
 .button-text {
