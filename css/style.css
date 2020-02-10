@@ -1848,16 +1848,18 @@ input[type="submit"].button {
   background: #fff;
 }
 
+.services .container {
+  max-width: 1200px;
+}
+
 .services .group {
-  margin: 0 -1em;
+  margin: 3em -1em;
 }
 
 .services .item {
   display: block;
-  width: calc(33.333% - 2em);
-  padding: 4em 2em;
-  margin: 1em;
-  border-radius: 0.125em;
+  width: 33.333%;
+  padding: 3em 2em;
   text-decoration: none;
   color: inherit;
   transition: 250ms ease;
@@ -1883,13 +1885,15 @@ input[type="submit"].button {
 .services .item:hover, .services .item:focus {
   transform: translate(0, -0.25em);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.11), 0 3px 6px rgba(0, 0, 0, 0.08);
-  background: #fff;
+  background: #719a1f;
 }
 
 .services .item:hover h3,
-.services .item:hover .icon, .services .item:focus h3,
-.services .item:focus .icon {
-  color: #719a1f;
+.services .item:hover .icon,
+.services .item:hover p, .services .item:focus h3,
+.services .item:focus .icon,
+.services .item:focus p {
+  color: #fff;
   opacity: 1;
 }
 
