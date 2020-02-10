@@ -39,12 +39,13 @@ body {
     color: $color-0;
     background: $color-grey-1;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 5em;
     @include fs(16px);
 }
 
 p {
-    @include fs(16px);
-    @include fluid('font-size', 0.875rem, 1rem);
+    @include fs(18px);
+    @include fluid('font-size', 0.875rem, 1.125rem);
     margin: 0 0 1em;
     font-weight: 400;
     line-height: 1.6;
@@ -61,19 +62,19 @@ a {
 h1 {
     @include fluid('font-size', 2.5rem, 3.5rem);
     @include fluid('line-height', 1em, 1.2em);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h2 {
     @include fluid('font-size', 1.75rem, 2.5rem);
     @include fluid('line-height', 1em, 1.2em);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h3 {
     @include fluid('font-size', 1.25rem, 1.75rem);
     @include fluid('line-height', 1em, 1.2em);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h1,
@@ -81,6 +82,7 @@ h2,
 h3 {
     margin: 0 0 0.25em;
     width: 100%;
+    font-family: $font-1;
 }
 
 ol,
@@ -162,7 +164,7 @@ section {
     max-width: $container-width;
     margin: 0 auto;
     padding: 1em;
-    
+
     & &{
         padding: 0;
     }
@@ -171,6 +173,22 @@ section {
 .group {
     display: flex;
     flex-flow: row wrap;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 2em;
+
+    p.sup {
+        margin-bottom: 0.75em;
+        font-weight: 800;
+        color: $color-1;
+        text-transform: uppercase;
+    }
+
+    h2 {
+
+    }
 }
 
 hr {

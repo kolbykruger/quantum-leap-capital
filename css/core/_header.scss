@@ -1,16 +1,38 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $header-height;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: $box-shadow-1;
+    transition: $transition-1;
+    z-index: 99;
+
+    &.sticky {
+        height: $header-sticky-height;
+
+        .nav a {
+            height: $header-sticky-height;
+        }
+    }
 
     .container {
         position: relative;
+        max-width: 100%;
+        padding: 0;
     }
 
     .group {
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
     }
 
     .logo {
         max-width: 240px;
+        margin-left: 1em;
 
         a {
             display: block;

@@ -30,10 +30,10 @@ $button-background: $color-1;
     display: inline-flex;
     align-items: center;
     margin: 0;
-    padding: 0.75em 1em;
+    padding: 1.125em;
     background: $button-background;
     color: $button-color;
-    border-radius: 0.25em;
+    //border-radius: 0.25em;
     line-height: 1;
     transition: 150ms ease;
     text-decoration: none;
@@ -74,6 +74,20 @@ $button-background: $color-1;
     &-secondary {
         color: inherit;
         background: rgba(0,0,0,0.25);
+
+        &:hover,
+        &:focus {
+            background: rgba(0,0,0,0.15);
+        }
+    }
+    &-tertiary {
+        color: inherit;
+        background: $color-3;
+
+        &:hover,
+        &:focus {
+            background: darken($color-3, 5%);
+        }
     }
     &-text {
         color: $color-1;

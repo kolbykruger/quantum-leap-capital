@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+
+    .container {
+        height: calc(100vh - 5em);
+        display: flex;
+        align-items: center;
+    }
+
+    .group {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .text {
+            width: 40%;
+        }
+
+        h1 {
+            //max-width: min-content;
+        }
+
+        .image {
+            width: 50%;
+            border-radius: 0.25em;
+            box-shadow: $box-shadow-1;
+            overflow: hidden;
+        }
+    }
+
+    .buttons {
+        margin-top: 3em;
+    }
+
+}

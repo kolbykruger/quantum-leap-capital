@@ -1,5 +1,18 @@
+//Fixed header
+document.addEventListener('DOMContentLoaded', function() {
+    var header = document.querySelector('.header');
+    var top = header.offsetTop;
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > top) {
+            header.classList.add('sticky');
+        } else {
+            header.classList.remove('sticky');
+        }
+    })
+})
+
 //Responsive iFrame
-$('iframe[src*="youtube"],iframe[src*="vimeo"]').wrap('<div class="responsiveIframe"/>');
+$('iframe[src*="youtube"],iframe[src*="vimeo"]').wrap('<div class="universal-iframe"/>');
 
 //Slideshow
 $('.slideshow .container').slick({
