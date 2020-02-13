@@ -1849,10 +1849,26 @@ input[type="submit"].button {
 }
 
 .hero .group .image {
+  position: relative;
   width: 50%;
+  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
+}
+
+.hero .group .image::before {
+  content: '';
+  position: absolute;
+  top: 1em;
+  right: -1em;
+  width: 100%;
+  height: 100%;
+  background: #719a1f;
   border-radius: 0.25em;
   box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
-  overflow: hidden;
+  z-index: -1;
+}
+
+.hero .group .image img {
+  border-radius: 0.25em;
 }
 
 .hero .buttons {
@@ -1896,7 +1912,7 @@ input[type="submit"].button {
 }
 
 .services .item p {
-  opacity: 0.35;
+  opacity: 0.75;
 }
 
 .services .item:hover, .services .item:focus {
