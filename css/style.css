@@ -395,7 +395,6 @@ body {
   color: #2b2b2b;
   background: #f1f2f3;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 5em;
   font-size: 16px;
   font-size: 1rem;
 }
@@ -701,9 +700,9 @@ hr::before {
 
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 1em;
+  left: 1em;
+  right: 1em;
   height: 5em;
   display: flex;
   align-items: center;
@@ -1830,45 +1829,37 @@ input[type="submit"].button {
 
 .hero {
   position: relative;
+  background: #2b2b2b;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  background-image: url(../images/financial-planning.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
 }
 
 .hero .container {
-  height: calc(100vh - 5em);
+  height: 100vh;
   display: flex;
   align-items: center;
 }
 
 .hero .group {
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
 }
 
 .hero .group .text {
   width: 40%;
-}
-
-.hero .group .image {
-  position: relative;
-  width: 50%;
-  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
-}
-
-.hero .group .image::before {
-  content: '';
-  position: absolute;
-  top: 1em;
-  right: -1em;
-  width: 100%;
-  height: 100%;
-  background: #719a1f;
-  border-radius: 0.25em;
-  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
-  z-index: -1;
-}
-
-.hero .group .image img {
-  border-radius: 0.25em;
+  color: #fff;
 }
 
 .hero .buttons {
