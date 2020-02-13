@@ -1410,6 +1410,12 @@ p.simplesearch-results,
   outline-offset: -2px;
 }
 
+.button-outline:hover, .button-outline:focus {
+  background: transparent;
+  outline-color: #2e5472;
+  color: #2e5472;
+}
+
 .button-text {
   color: #719a1f;
   background: transparent;

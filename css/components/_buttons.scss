@@ -95,6 +95,13 @@ $button-background: $color-1;
         color: $button-background;
         outline: 2px solid $button-background;
         outline-offset: -2px;
+
+        &:hover,
+        &:focus {
+            background: transparent;
+            outline-color: $color-3;
+            color: $color-3;
+        }
     }
     &-text {
         color: $color-1;
