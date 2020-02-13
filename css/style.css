@@ -826,7 +826,7 @@ hr::before {
   height: 5em;
   padding: 0 1.5em;
   color: #2b2b2b;
-  border-left: 1px solid #f6f9fc;
+  border-left: 1px solid #eee;
   text-decoration: none;
   transition: 250ms ease;
 }
@@ -880,7 +880,7 @@ hr::before {
   background: #fff;
   white-space: nowrap;
   min-width: 200px;
-  border-top: 1px solid #f6f9fc;
+  border-top: 1px solid #eee;
   box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
   text-align: left;
   transition: opacity 0.35s;
@@ -1866,7 +1866,7 @@ input[type="submit"].button {
 }
 
 .hero .group .text h1 {
-  margin-top: 5vh;
+  margin-top: 2.5em;
 }
 
 .hero .group .image {
