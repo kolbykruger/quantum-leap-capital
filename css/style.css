@@ -1857,8 +1857,6 @@ input[type="submit"].button {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  background: #2b2b2b;
-  color: #fff;
 }
 
 .hero .group .text h1 {
