@@ -1867,6 +1867,7 @@ input[type="submit"].button {
 
 .hero .group .text h1 {
   margin-top: 2.5em;
+  line-height: 1.4;
 }
 
 .hero .group .image {
