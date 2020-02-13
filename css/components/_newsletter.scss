@@ -1,0 +1,33 @@
+.newsletter {
+    background: $color-3;
+    margin-top: 6em;
+    margin-bottom: 0;
+    padding: 1em;
+
+    .container {
+
+    }
+
+    .group {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text {
+        color: #fff;
+        max-width: 50%;
+    }
+
+    .form {
+
+        input {
+            display: block;
+            margin-bottom: 1em;
+            padding: 1em;
+            font-family: $font-0;
+            min-width: 300px;
+            border: none;
+            border-radius: 0.125em;
+        }
+    }
+}
