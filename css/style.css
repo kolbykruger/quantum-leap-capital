@@ -393,7 +393,7 @@ html.wf-inactive {
 
 body {
   color: #2b2b2b;
-  background: #f1f2f3;
+  background: #f6f9fc;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -826,7 +826,7 @@ hr::before {
   height: 5em;
   padding: 0 1.5em;
   color: #2b2b2b;
-  border-left: 1px solid #f1f2f3;
+  border-left: 1px solid #f6f9fc;
   text-decoration: none;
   transition: 250ms ease;
 }
@@ -880,7 +880,7 @@ hr::before {
   background: #fff;
   white-space: nowrap;
   min-width: 200px;
-  border-top: 1px solid #f1f2f3;
+  border-top: 1px solid #f6f9fc;
   box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.1);
   text-align: left;
   transition: opacity 0.35s;
@@ -894,7 +894,7 @@ hr::before {
   padding: 10px;
   margin: 0;
   border-left: none;
-  border-bottom: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f6f9fc;
 }
 
 .nav ul ul a i {
@@ -974,7 +974,7 @@ hr::before {
 }
 
 .mobile_nav ul.top {
-  background: #f1f2f3;
+  background: #f6f9fc;
   padding-bottom: 5em;
 }
 
@@ -1046,7 +1046,7 @@ hr::before {
 }
 
 .mobile_nav .drop {
-  background: #f1f2f3;
+  background: #f6f9fc;
   border-left: 0.5em solid #719a1f;
 }
 
@@ -1182,7 +1182,7 @@ footer .ewd img {
   padding: 1em;
   background: #fff;
   border-radius: 0.25em;
-  border: 1px solid #f1f2f3;
+  border: 1px solid #f6f9fc;
 }
 
 .section_heading {
@@ -2076,7 +2076,7 @@ table {
   height: auto !important;
   display: table;
   background: #fff;
-  border-color: #f1f2f3;
+  border-color: #f6f9fc;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -2184,7 +2184,7 @@ table td {
   position: absolute;
   width: 10vw;
   height: 10vw;
-  background: #f1f2f3;
+  background: #f6f9fc;
   border-radius: 0.125em;
   z-index: -1;
 }
