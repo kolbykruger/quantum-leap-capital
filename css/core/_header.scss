@@ -12,6 +12,9 @@
     z-index: 99;
 
     &.sticky {
+        top: 0;
+        left: 0;
+        right: 0;
         height: $header-sticky-height;
         box-shadow: $box-shadow-2;
 

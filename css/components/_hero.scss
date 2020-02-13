@@ -1,34 +1,39 @@
 .hero {
     position: relative;
-    background: #2b2b2b;
-
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 50%;
-        bottom: 0;
-        background-image: url(../images/financial-planning.jpg);
-        background-size: cover;
-        background-position: center;
-        opacity: 0.75;
-    }
+    margin-bottom: 0;
 
     .container {
+        max-width: 100%;
+        padding: 0;
         height: 100vh;
-        display: flex;
-        align-items: center;
     }
 
     .group {
-        align-items: center;
+        align-items: stretch;
         justify-content: flex-end;
         width: 100%;
 
+        > div {
+            height: 100vh;
+        }
+
         .text {
-            width: 40%;
-            color: #fff;
+            width: 50%;
+            padding: 8vw;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+
+        .image {
+            width: 50%;
+            opacity: 0.85;
+
+            img {
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+            }
         }
 
         h1 {
