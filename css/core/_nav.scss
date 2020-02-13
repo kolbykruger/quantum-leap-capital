@@ -30,22 +30,36 @@ $nav-item-height: $header-height;
     &.special-link {
         color: #fff;
         background: $color-3;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+            background: darken($color-3, 5%);
+        }
     }
 
     &.button {
         color: #fff;
         border-left: none;
         border-radius: 0;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+            background: $color-2;
+        }
     }
 }
 
 .nav a:hover,
 .nav a:focus {
+    background: $color-grey-2;
     color: $color-1;
 }
 
 .nav li.open > a {
     color: $color-1;
+    background: $color-grey-2;
 }
 
 .nav .trigger > a > i {
